@@ -1,4 +1,4 @@
-## start-process-vs-unix-domain-socket
+# start-process-vs-unix-domain-socket
 
 Experiment of how much the cost of starting a new process can be reduced by passing values by unix domain socket.
 
@@ -39,3 +39,7 @@ BenchmarkSocketAlreadyProcessStarted-4   	   10000	     13312 ns/op
 PASS
 ok  	github.com/sambaiz/start-process-vs-unix-domain-socket	58.664s
 ```
+
+## article
+
+- ([ja](https://www.sambaiz.net/article/404/)/[en](https://www.sambaiz.net/en/article/404/)) How faster is sending/receiving values by UNIX domain socket than starting new processes when executing commands
